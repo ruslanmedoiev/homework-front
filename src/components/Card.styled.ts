@@ -20,7 +20,7 @@ export const Card = styled.div<CardPropsType>`
   width: ${(props) => props.width || ""};
   height: auto;
   background: ${(props) => props.background};
-  box-shadow: 0 0 2px 2px rgba(0 0 0 / 0.1);
+  box-shadow: 0 0 16px 10px rgba(0 0 0 / 0.1);
 
   ${(props) =>
     props.rounded &&

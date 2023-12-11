@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Box>
         <Card rounded width="300px">
-          <Image src="/Training SC.svg" />
+          <Image src="Training SC.svg" />
           <Container flexDirection="column">
             <h2>Headline</h2>
             <p>
