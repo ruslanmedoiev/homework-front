@@ -14,10 +14,11 @@ type CardPropsType = {
 
 export const Card = styled.div<CardPropsType>`
   display: flex;
-  padding: 10px;
+  padding: 10px 10px 22px;
   flex-direction: column;
   gap: 20px;
-  width: ${(props) => props.width || ""};
+  max-width: ${(props) => props.width || ""};
+  width: 100%;
   height: auto;
   background: ${(props) => props.background};
   box-shadow: 0 0 16px 10px rgba(0 0 0 / 0.1);
@@ -47,7 +48,6 @@ export const Card = styled.div<CardPropsType>`
   ${Container} {
     font-family: Inter, sans-serif;
     padding: 0 10px;
-    text-align: start;
     display: flex;
     gap: 20px;
   }

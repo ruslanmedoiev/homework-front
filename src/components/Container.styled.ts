@@ -10,4 +10,5 @@ export const Container = styled.div<ContainerPropsType>`
   width: ${(props) => props?.width || "100%"};
   height: ${(props) => props?.height || "auto"};
   flex-direction: ${(props) => props.flexDirection};
+  flex-wrap: wrap;
 `;

@@ -13,7 +13,7 @@ export const Button = styled.button<ButtonPropsType>`
   color: ${(props) => props.textColor || "#fff"};
   border-radius: ${(props) => (props?.rounded ? "5px" : "")};
   font-size: 10px;
-  line-height: 20px;
+  line-height: 1.2;
   width: 85px;
   height: 30px;
   font-weight: 700;
